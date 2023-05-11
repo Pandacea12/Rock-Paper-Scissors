@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Cheesecake Cookie Cupcake</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./rps.css">
+    </head>
+    <body>
+        <div class="main">
+            <h1>Cheesecake Cookie Cupcake Game</h1>
+            <div class="game">
+                <div class="buttons">
+                    <div class="pastry cheesecake">
+                        <img src="./images/ccf-cheesecake-raspberry.png" alt="cheesecake">
+                        <p>Cheesecake</p>
+                    </div>
+                    <div class="pastry cookie">
+                        <img src="./images/ccf-cookie-choco.png" alt="cookie">
+                        <p>Cookie</p>
+                    </div>
+                    <div class="pastry cupcake">
+                        <img src="./images/ccf-cupcake-choco.png" alt="cupcake">
+                        <p>Cupcake</p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p><span class="ch-color">Cheesecake</span> beats <span class="co-color">Cookie</span></p>
+                    <p><span class="co-color">Cookie</span> beats <span class="cu-color">Cupcake</span></p>
+                    <p><span class="cu-color">Cupcake</span> beats <span class="ch-color">Cheesecake</span></p>
+                </div>
+                <div id="results">
+                    <div class="results">
+                        <div id="win">Wins : <span class="win">0</span></div>
+                        <div id="lose">Losses : <span class="lose">0</span></div>
+                        <div id="draw">Draws : <span class="draw">0</span></div>
+                    </div>
+                    <div class="reset">Reset</div>
+                </div>
+            </div>
+        </div>
+        <script src="./rps.js"></script>
+    </body>
+</html>
